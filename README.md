@@ -79,6 +79,30 @@ EventType:
   enum(REHERSAL, CONCERT, PARADE)
 ```
 
+## Screens
+
+### 1. Login
+
+### 2. CRUD `Ensable`
+
+UserRoles: \[god, system\] 
+
+### 3. CRUD `User`
+
+UserRoles: \[god, system, admin, user (only Read)\]
+
+### 4. CRUD `Piece`
+
+UserRoles: \[god, system, admin, user (only Read)\]
+
+### 5. CRUD `Event`
+
+UserRoles: \[god, system, admin, user (only Read)\]
+
+### 6. Settings
+
+UserRoles: \[god, system, admin, user\] 
+
 ## Use cases
 
 ### Use Case 1: Register a new ensemble
