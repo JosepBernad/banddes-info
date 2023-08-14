@@ -1,6 +1,6 @@
 # Banddes
 
-This is a model specification in YAML format for a multi-tenant SaaS platform tailored to choirs, bands, and orchestras. The platform allows ensembles to manage their sheet music libraries, users (musicians), rehearsals, and performances. The model covers entities such as ensemble, user, instrument, piece, file, creator, event, and with their respective attributes and relationships.
+This is a model specification for a multi-tenant SaaS platform tailored to choirs, bands, and orchestras. The platform allows ensembles to manage their sheet music libraries, users (musicians), rehearsals, and performances. The model covers entities such as ensemble, user, instrument, piece, file, creator, event, and with their respective attributes and relationships.
 
 ## Model
 
