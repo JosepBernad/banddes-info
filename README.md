@@ -19,7 +19,7 @@ EnsembleType:
   enum(CHOIR, BAND, ORCHESTRA, BIG_BAND, JAZZ_BAND)
 
 User:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   email: string
   password: string
   firstName: string
@@ -34,11 +34,12 @@ UserRole:
   enum(GOD, SYSTEM, ADMIN, USER, GUEST)
 
 Instrument:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   name: string
+  ensamble: Ensamble
 
 Piece:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   title: string
   genre: string
   duration: integer
@@ -47,7 +48,7 @@ Piece:
   ensamble: Ensable
 
 File:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   name: string
   fileType: FileType
   extension: string
@@ -57,7 +58,7 @@ FileType:
   enum(SCORE, SCORE_EDITABLE, MIDI, AUDIO)
 
 Creator:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   firstName: string
   lastName: string
   creatorRole: CreatorRole
@@ -66,7 +67,7 @@ CreatorRole:
   enum(COMPOSER, SONGWRITER, ARRANGER, BAND, PRODUCER, LYRICIST)
 
 Event:
-  id: integer (begins from 3000000)
+  id: integer (begins from 1000)
   eventType: PerformanceType
   title: string
   startDate: time
